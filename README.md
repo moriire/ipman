@@ -11,7 +11,7 @@ IPToolz is a high-level core python package for Internet Protocol(IP) manipulati
 >> import IPToolz
 >> dir(IPToolz)
 
-['IPType', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'binary', 'decimal', 'getIP', 'getlocal', 'hexadecimal', 'ip', 'isIPV4', 'isIPV6', 'mb', 'octet', 'web']
+['CBit', 'HexConversionError', 'IPSegmentError', 'IPToolz', 'IPType', 'IPValueError', 'InvalidIPError', 'InvalidIPRangeError', 'Toolz', 'UnrecognisedIPError', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', 'binary', 'decimal', 'getIP', 'getlocal', 'hexadecimal', 'isIPV4', 'isIPV6', 'octet']
 ```
 
 ### Usage
