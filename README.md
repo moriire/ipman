@@ -19,7 +19,7 @@ IPToolz is a high-level core python package for Internet Protocol(IP) manipulati
 ```sh
 from IPToolz import X
 #e.g. 
-from OPToolz import isIPV4
+from IPToolz import isIPV4
 #or 
 from IPtoolz import *
 ```
@@ -57,8 +57,8 @@ This returns the ip address of a given url.
 This returns the ip address of a given url.
 ```sh
 >> from IPToolz import isIPV6
->> isIPV6('x:x:x::x')('x.x.x.x.x.x.x.x', 
-True)
+>> isIPV6('x:x:x::x')
+('x.x.x.x.x.x.x.x', True)
 ```
 
 #### Others
