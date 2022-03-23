@@ -1,5 +1,5 @@
 # IPToolz
-IPToolz is a high-level core python package for Internet Protocol(IP) manipulations.
+IPToolz is a high-level core python package for Internet Protocol(IP) manipulations and network solution tool.
 
 ### Installation
 
