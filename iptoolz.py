@@ -1,6 +1,6 @@
-from .CBit.mo import MBit as Toolz
-from .CBit.mo import IPAddr, Web
-from .CBit.errors import *
+from .mo import MBit as Toolz
+from .mo import IPAddr, Web
+from .errors import *
 __all__=['binary', 'octet', 'hexadecimal', 'decimal', 'getlocal', 'getIP', 'IPType', 'isIPV4', 'isIPV6']
 
 def binary(dec):
