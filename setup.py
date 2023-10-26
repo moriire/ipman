@@ -5,7 +5,6 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
   name = 'ipman',  
-  packages = ['ipman'],
   package_dir={'ipman': 'ipman'},
   package_data={'ipman': ['mo.py','errors.py']},
               version = '1.1.1.1',
