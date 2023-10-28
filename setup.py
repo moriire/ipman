@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
 setuptools.setup(
   name = 'ipman',  
   package_dir={'ipman': 'ipman'},
-  package_data={'ipman': ['mo.py','errors.py']},
-              version = '1.1.1.1',
+  package_data={'ipman': ['ipman.py','errors.py', 'iptoolz.py']},
+              version = '1.1.1.1.0',
   license='MIT',    
   description = 'ipman is a high-level core python package for Internet Protocol(IP) manipulations.',
   long_description=long_description,
@@ -22,7 +22,7 @@ setuptools.setup(
     'Intended Audience :: Developers',
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',   
-    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10',
   ],
    python_requires='>=3.10',
 )

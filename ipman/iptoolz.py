@@ -1,5 +1,5 @@
-from .mo import MBit as Toolz
-from .mo import IPAddr, Web
+from .ipman import MBit as Toolz
+from .ipman import IPAddr, Web
 from .errors import *
 __all__=['binary', 'octet', 'hexadecimal', 'decimal', 'getlocal', 'getIP', 'IPType', 'isIPV4', 'isIPV6']
 
